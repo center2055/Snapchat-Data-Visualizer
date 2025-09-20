@@ -1,0 +1,23 @@
+# Node
+node_modules/
+app/node_modules/
+
+# Build outputs
+dist/
+app/dist/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Personal Snapchat export data (do NOT commit)
+html/
+chat_media/
+memories/
+shared_story/
+index.html
+
+# Local env
+.env*
+
