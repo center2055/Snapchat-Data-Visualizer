@@ -57,10 +57,7 @@ If the taskbar icon shows a generic icon, unpin/repin the app or restart Explore
 
 Screenshots
 -----------
-
-Place your screenshot(s) in `docs/` and reference them here. Example:
-
-![UI Screenshot](docs/screenshot-placeholder.jpg)
+<img width="2735" height="1572" alt="Screenshot 2025-09-20 083623" src="https://github.com/user-attachments/assets/f8d8c7d8-915c-4f57-a63f-e7fc4ba1fdfd" />
 
 
 Development
