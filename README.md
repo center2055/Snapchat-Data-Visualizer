@@ -13,8 +13,8 @@ An elegant local web app to visualize your Snapchat data export:
 Planned: Browser extension to visualize directly without exporting first.
 
 
-Quick start
------------
+Quick start (source)
+--------------------
 
 1) Requirements: Node.js 18+ (LTS recommended)
 
@@ -45,6 +45,16 @@ Steps overview:
 4) In this app, select the unzipped folder (containing `html/` etc.)
 
 
+Releases (no source setup)
+--------------------------
+
+- Download the latest Windows build from the Releases page.
+- Run the installer (or the portable exe in `win-unpacked/`).
+- When the app opens, click “Select your Snapchat export root folder” and choose your unzipped export folder.
+
+If the taskbar icon shows a generic icon, unpin/repin the app or restart Explorer (Windows icon cache).
+
+
 Screenshots
 -----------
 
@@ -62,6 +72,15 @@ Frontend lives under `app/` (Vite + React + TypeScript).
 cd app
 npm install
 npm run dev
+```
+
+Electron packaging (Windows exe):
+
+```bash
+cd app
+npm run build:web
+npx electron-builder --win nsis --x64 --publish=never
+# outputs go to app/dist/
 ```
 
 
